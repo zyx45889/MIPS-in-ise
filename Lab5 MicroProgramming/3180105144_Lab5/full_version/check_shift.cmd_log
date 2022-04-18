@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/check_shift.v -lang verilog -prj MicroProgramming -o check_shift.spl -module check_shift -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w check_shift.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/check_shift.sym 

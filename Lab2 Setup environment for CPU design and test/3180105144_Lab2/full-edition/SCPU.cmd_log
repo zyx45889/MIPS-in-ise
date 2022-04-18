@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/OExp02-IP2SOC/SCPU.v -lang verilog -prj OExp02-IP2SOC -o SCPU.spl -module SCPU -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU.spl C:/Users/86133/Desktop/ise/OExp02-IP2SOC/SCPU.sym 

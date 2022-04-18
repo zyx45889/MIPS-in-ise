@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/Taken.v -lang verilog -prj MYSCPU -o Taken.spl -module Taken -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Taken.spl C:/Users/86133/Desktop/ise/MYSCPU/Taken.sym 

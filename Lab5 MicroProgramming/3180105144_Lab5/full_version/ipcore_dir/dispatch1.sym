@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="dispatch1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2020-6-30T2:59:32</timestamp>
+    <pin polarity="Input" x="0" y="80" name="addra(5:0)" />
+    <pin polarity="Input" x="0" y="272" name="clka" />
+    <pin polarity="Output" x="576" y="80" name="douta(3:0)" />
+    <graph>
+        <rect width="512" x="32" y="32" height="1344" />
+        <line x2="32" y1="80" y2="80" style="linewidth:W" x1="0" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <line x2="544" y1="80" y2="80" style="linewidth:W" x1="576" />
+        <text style="fontsize:100;fontname:Arial" x="92" y="644">dispatch1</text>
+        <attrtext style="fontsize:40;fontname:Arial" attrname="PinName" x="44" y="80" type="pin addra(5:0)" />
+        <attrtext style="fontsize:40;fontname:Arial" attrname="PinName" x="60" y="272" type="pin clka" />
+        <attrtext style="alignment:RIGHT;fontsize:40;fontname:Arial" attrname="PinName" x="512" y="80" type="pin douta(3:0)" />
+    </graph>
+</symbol>

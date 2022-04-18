@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/MUX2T1_32.v -lang verilog -prj MYSCPU -o MUX2T1_32.spl -module MUX2T1_32 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX2T1_32.spl C:/Users/86133/Desktop/ise/MYSCPU/MUX2T1_32.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1_32.v -lang verilog -prj MYSCPU -o MUX2T1_32.spl -module MUX2T1_32 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX2T1_32.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1_32.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1_32.v -lang verilog -prj MYSCPU -o MUX2T1_32.spl -module MUX2T1_32 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX2T1_32.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1_32.sym 

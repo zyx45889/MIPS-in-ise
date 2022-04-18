@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MCPU/MUX2T1_32.v -lang verilog -prj MCPU -o MUX2T1_32.spl -module MUX2T1_32 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w MUX2T1_32.spl C:/Users/86133/Desktop/ise/MCPU/MUX2T1_32.sym 

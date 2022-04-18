@@ -1,0 +1,11 @@
+[Inputs]
+=PC[31:0]=
+=A[31:0]=
+=B[31:0]=
+=op[2:0]=
+[Outputs]
+=infomation[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel info
+

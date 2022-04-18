@@ -1,0 +1,22 @@
+[Inputs]
+=opcode[5:0]=
+=func[5:0]=
+[Outputs]
+LUI
+Jr
+Wreg
+SrcB
+ReadM
+MemReg
+WriteM
+Beq
+Bne
+JJal
+Jal
+RtRd
+shift
+=operation[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel FirstDecoder
+

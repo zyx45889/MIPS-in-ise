@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/Adder32b.v -lang verilog -prj MYSCPU -o Adder32b.spl -module Adder32b -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Adder32b.spl C:/Users/86133/Desktop/ise/MYSCPU/Adder32b.sym 

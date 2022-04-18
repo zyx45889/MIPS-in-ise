@@ -1,0 +1,10 @@
+[Inputs]
+beq
+bne
+zero
+[Outputs]
+taken
+[BiDir]
+[ATTRIBUTES]
+VeriModel Taken
+

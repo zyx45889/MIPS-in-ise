@@ -1,0 +1,19 @@
+sch2hdl -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/MYSCPU/SCPU.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/MYSCPU/SCPU.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/MYSCPU/SCPU.sch 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.syr" 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym SCPU C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym SCPU C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym SCPU C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/SCPU.sym 

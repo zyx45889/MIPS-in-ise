@@ -1,0 +1,159 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MUX8T1_1.vf
+// /___/   /\     Timestamp : 03/09/2020 23:21:56
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/86133/Desktop/ise/Multi_8CH32/MUX8T1_1.vf -w C:/Users/86133/Desktop/ise/Multi_8CH32/MUX8T1_1.sch
+//Design Name: MUX8T1_1
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module OR8_HXILINX_MUX8T1_1 (O, I0, I1, I2, I3, I4, I5, I6, I7);
+    
+
+   output O;
+
+   input I0;
+   input I1;
+   input I2;
+   input I3;
+   input I4;
+   input I5;
+   input I6;
+   input I7;
+
+assign O = (I0 || I1 || I2 || I3 || I4 || I5 || I6 || I7);
+
+endmodule
+`timescale 1ns / 1ps
+
+module MUX8T1_1(S0, 
+                S1, 
+                S2, 
+                S3, 
+                S4, 
+                S5, 
+                S6, 
+                S7, 
+                T, 
+                O);
+
+    input S0;
+    input S1;
+    input S2;
+    input S3;
+    input S4;
+    input S5;
+    input S6;
+    input S7;
+    input [2:0] T;
+   output O;
+   
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire XLXN_37;
+   wire XLXN_38;
+   
+   AND4  XLXI_1 (.I0(S0), 
+                .I1(XLXN_20), 
+                .I2(XLXN_19), 
+                .I3(XLXN_18), 
+                .O(XLXN_31));
+   AND4  XLXI_2 (.I0(S1), 
+                .I1(T[0]), 
+                .I2(XLXN_22), 
+                .I3(XLXN_21), 
+                .O(XLXN_32));
+   AND4  XLXI_3 (.I0(S2), 
+                .I1(XLXN_24), 
+                .I2(T[1]), 
+                .I3(XLXN_23), 
+                .O(XLXN_33));
+   AND4  XLXI_4 (.I0(S3), 
+                .I1(T[0]), 
+                .I2(T[1]), 
+                .I3(XLXN_25), 
+                .O(XLXN_34));
+   AND4  XLXI_5 (.I0(S5), 
+                .I1(T[0]), 
+                .I2(XLXN_28), 
+                .I3(T[2]), 
+                .O(XLXN_36));
+   AND4  XLXI_6 (.I0(S6), 
+                .I1(XLXN_30), 
+                .I2(T[1]), 
+                .I3(T[2]), 
+                .O(XLXN_37));
+   AND4  XLXI_7 (.I0(S7), 
+                .I1(T[0]), 
+                .I2(T[1]), 
+                .I3(T[2]), 
+                .O(XLXN_38));
+   AND4  XLXI_8 (.I0(S4), 
+                .I1(XLXN_27), 
+                .I2(XLXN_26), 
+                .I3(T[2]), 
+                .O(XLXN_35));
+   (* HU_SET = "XLXI_9_0" *) 
+   OR8_HXILINX_MUX8T1_1  XLXI_9 (.I0(XLXN_38), 
+                                .I1(XLXN_37), 
+                                .I2(XLXN_36), 
+                                .I3(XLXN_35), 
+                                .I4(XLXN_34), 
+                                .I5(XLXN_33), 
+                                .I6(XLXN_32), 
+                                .I7(XLXN_31), 
+                                .O(O));
+   INV  XLXI_10 (.I(T[2]), 
+                .O(XLXN_18));
+   INV  XLXI_12 (.I(T[0]), 
+                .O(XLXN_20));
+   INV  XLXI_13 (.I(T[2]), 
+                .O(XLXN_21));
+   INV  XLXI_14 (.I(T[1]), 
+                .O(XLXN_22));
+   INV  XLXI_15 (.I(T[2]), 
+                .O(XLXN_23));
+   INV  XLXI_16 (.I(T[0]), 
+                .O(XLXN_24));
+   INV  XLXI_17 (.I(T[2]), 
+                .O(XLXN_25));
+   INV  XLXI_18 (.I(T[1]), 
+                .O(XLXN_26));
+   INV  XLXI_19 (.I(T[0]), 
+                .O(XLXN_27));
+   INV  XLXI_20 (.I(T[1]), 
+                .O(XLXN_28));
+   INV  XLXI_21 (.I(T[0]), 
+                .O(XLXN_30));
+   INV  XLXI_22 (.I(T[1]), 
+                .O(XLXN_19));
+endmodule

@@ -1,0 +1,107 @@
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog lab2_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.sch 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog lab2_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.sch 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim lab2.ngd lab2_translate.v 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/lab2.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -p xc7k160t-ffg676-2L lab2.ngc lab2.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab2_map.ncd lab2.ngd lab2.pcf 
+par -w -intstyle ise -ol high -mt off lab2_map.ncd lab2.ncd lab2.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab2.twx lab2.ncd -o lab2.twr lab2.pcf -ucf ok.ucf 
+bitgen -intstyle ise -f lab2.ut lab2.ncd 

@@ -1,0 +1,15 @@
+sch2hdl -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch 
+sch2sym -intstyle ise -family kintex7 -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/MCPU/M_datapath.sch C:/Users/86133/Desktop/ise/MCPU/M_datapath.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym M_datapath C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/M_datapath.sch C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/M_datapath.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog M_datapath.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/M_datapath.sch 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog M_datapath.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/M_datapath.sch 

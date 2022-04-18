@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MicroProgramming/MUX4t1_4.v -lang verilog -prj MicroProgramming -o MUX4t1_4.spl -module MUX4t1_4 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX4t1_4.spl C:/Users/86133/Desktop/ise/MicroProgramming/MUX4t1_4.sym 

@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MUX2T1.vf
+// /___/   /\     Timestamp : 07/01/2020 16:31:28
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX2T1.sch
+//Design Name: MUX2T1
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MUX2T1(A, 
+              B, 
+              S, 
+              C);
+
+    input A;
+    input B;
+    input S;
+   output C;
+   
+   wire XLXN_2;
+   wire XLXN_6;
+   wire XLXN_7;
+   
+   AND2  XLXI_1 (.I0(S), 
+                .I1(B), 
+                .O(XLXN_6));
+   AND2  XLXI_2 (.I0(XLXN_2), 
+                .I1(A), 
+                .O(XLXN_7));
+   OR2  XLXI_3 (.I0(XLXN_7), 
+               .I1(XLXN_6), 
+               .O(C));
+   INV  XLXI_4 (.I(S), 
+               .O(XLXN_2));
+endmodule

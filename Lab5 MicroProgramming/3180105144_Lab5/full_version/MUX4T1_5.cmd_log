@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MUX4T1_5.v -lang verilog -prj MicroProgramming -o MUX4T1_5.spl -module MUX4T1_5 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w MUX4T1_5.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MUX4T1_5.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MUX4T1_5.v -lang verilog -prj MicroProgramming -o MUX4T1_5.spl -module MUX4T1_5 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w MUX4T1_5.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MUX4T1_5.sym 

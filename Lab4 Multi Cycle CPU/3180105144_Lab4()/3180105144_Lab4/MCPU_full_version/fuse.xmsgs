@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/86133/Desktop/ise/MCPU/ALUSCPU.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">S</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/86133/Desktop/ise/MCPU/ALUSCPU.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">result1</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="489" delta="unknown" >"C:/Users/86133/Desktop/ise/MCPU/ALUSCPU.v" Line 27: Illegal initial value of <arg fmt="%s" index="1">output</arg> port <arg fmt="%s" index="2">S</arg> for <arg fmt="%s" index="3">module</arg> <arg fmt="%s" index="4">ALUSCPU</arg> ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/86133/Desktop/ise/MCPU/ALUSCPU.v" Line 42: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">B</arg>&gt;. Formal port size is <arg fmt="%d" index="2">6</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/86133/Desktop/ise/MCPU/ALUSCPU.v" Line 43: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">B</arg>&gt;. Formal port size is <arg fmt="%d" index="2">6</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: ￏﾵￍﾳￕￒﾲﾻﾵﾽￖﾸﾶﾨﾵￄￂﾷﾾﾶﾡﾣ, &quot;isim\M_datapath_M_datapath_sch_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

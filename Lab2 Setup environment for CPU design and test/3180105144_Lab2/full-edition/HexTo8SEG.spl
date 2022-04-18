@@ -1,0 +1,11 @@
+[Inputs]
+flash
+=LES[7:0]=
+=point[7:0]=
+=Hexs[31:0]=
+[Outputs]
+=SEG_TXT[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel HexTo8SEG
+

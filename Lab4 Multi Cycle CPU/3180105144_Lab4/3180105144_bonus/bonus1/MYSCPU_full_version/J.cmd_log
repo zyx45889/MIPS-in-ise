@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/J.v -lang verilog -prj MYSCPU -o J.spl -module J -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 J.spl C:/Users/86133/Desktop/ise/MYSCPU/J.sym 

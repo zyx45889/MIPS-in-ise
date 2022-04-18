@@ -1,0 +1,3 @@
+verilog isim_temp "LuiExt.v"
+verilog isim_temp "test_LuiExt.v"
+verilog isim_temp "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

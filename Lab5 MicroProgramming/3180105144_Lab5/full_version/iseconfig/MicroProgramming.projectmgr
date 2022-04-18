@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MicroProgramming" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|ALU4b.vf</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|MicroProgramming|ALU4b.vf</ClosedNode>
+         <ClosedNode>/AddSub4b C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|AddSub4b.vf</ClosedNode>
+         <ClosedNode>/AddSub4b C:|Users|86133|Desktop|ise|MicroProgramming|AddSub4b.vf</ClosedNode>
+         <ClosedNode>/Adder32b C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|Adder32b.v</ClosedNode>
+         <ClosedNode>/Adder32b C:|Users|86133|Desktop|ise|MicroProgramming|Adder32b.v</ClosedNode>
+         <ClosedNode>/Adder4b C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|Adder4b.vf</ClosedNode>
+         <ClosedNode>/Adder4b C:|Users|86133|Desktop|ise|MicroProgramming|Adder4b.vf</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MCPU.sch/U11 - ctrl/XLXI_7 - Adder4b</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MCPU.sch/U1_2 - M_datapath/XLXI_8 - ALUSCPU</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MCPU_drc.vf/U11 - ctrl</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MCPU_drc.vf/U1_2 - M_datapath</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|MicroProgramming|MCPU_drc.vf/U11 - ctrl/XLXI_7 - Adder4b</ClosedNode>
+         <ClosedNode>/MCPU C:|Users|86133|Desktop|ise|MicroProgramming|MCPU_drc.vf/U1_2 - M_datapath</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_CPU.v/UUT - MCPU/U11 - ctrl</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_CPU.v/UUT - MCPU/U1_2 - M_datapath</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_MCPU.v/UUT - MCPU/U11 - ctrl</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_MCPU.v/UUT - MCPU/U1_2 - M_datapath</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|MicroProgramming|test_CPU.v/UUT - MCPU</ClosedNode>
+         <ClosedNode>/MCPU_MCPU_sch_tb C:|Users|86133|Desktop|ise|MicroProgramming|test_MCPU.v/UUT - MCPU/U11 - ctrl</ClosedNode>
+         <ClosedNode>/MUX2T1_5 C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MUX2T1_5.v</ClosedNode>
+         <ClosedNode>/MUX2T1_5 C:|Users|86133|Desktop|ise|MicroProgramming|MUX2T1_5.v</ClosedNode>
+         <ClosedNode>/MUX2T1_8 C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MUX2T1_8.v</ClosedNode>
+         <ClosedNode>/MUX2T1_8 C:|Users|86133|Desktop|ise|MicroProgramming|MUX2T1_8.v</ClosedNode>
+         <ClosedNode>/M_datapath C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|M_datapath.sch</ClosedNode>
+         <ClosedNode>/M_datapath C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|M_datapath.vf</ClosedNode>
+         <ClosedNode>/M_datapath C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|M_datapath_drc.vf</ClosedNode>
+         <ClosedNode>/M_datapath C:|Users|86133|Desktop|ise|MicroProgramming|M_datapath.vf</ClosedNode>
+         <ClosedNode>/M_datapath C:|Users|86133|Desktop|ise|MicroProgramming|M_datapath_drc.vf</ClosedNode>
+         <ClosedNode>/M_datapath_MUSER_MCPU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|MCPU_drc.vf</ClosedNode>
+         <ClosedNode>/M_datapath_MUSER_MCPU C:|Users|86133|Desktop|ise|MicroProgramming|MCPU_drc.vf</ClosedNode>
+         <ClosedNode>/M_datapath_M_datapath_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_datapath.v</ClosedNode>
+         <ClosedNode>/M_datapath_M_datapath_sch_tb C:|Users|86133|Desktop|ise|MicroProgramming|test_datapath.v</ClosedNode>
+         <ClosedNode>/test_ALU C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_ALU.v</ClosedNode>
+         <ClosedNode>/test_ALU C:|Users|86133|Desktop|ise|MicroProgramming|test_ALU.v</ClosedNode>
+         <ClosedNode>/test_MUX2t1 C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_MUX2t1.v</ClosedNode>
+         <ClosedNode>/test_MUX2t1 C:|Users|86133|Desktop|ise|MicroProgramming|test_MUX2t1.v</ClosedNode>
+         <ClosedNode>/test_contrl C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|test_contrl.v</ClosedNode>
+         <ClosedNode>/test_contrl C:|Users|86133|Desktop|ise|MicroProgramming|test_contrl.v</ClosedNode>
+         <ClosedNode>/top C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|top.v/U1 - MCPU/U11 - ctrl/XLXI_7 - Adder4b</ClosedNode>
+         <ClosedNode>/top C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|top.v/U1 - MCPU/U1_2 - M_datapath</ClosedNode>
+         <ClosedNode>/top C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|top.v/U1 - MCPU/U1_2 - M_datapath/XLXI_8 - ALUSCPU</ClosedNode>
+         <ClosedNode>/top C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|top.v/U1 - MCPU/XLXI_7 - v_datapath/XLXI_48 - ALU</ClosedNode>
+         <ClosedNode>/v_datapath C:|Users|86133|Desktop|ise|3180105144_Lab5|3180105144_Lab5|full_version|v_datapath.v/XLXI_48 - ALU</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >15</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014b0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>XLXI_10 - decode (C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Adder4b.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000110000000010001000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000164000000010000000100000000000000000000000064ffffffff000000810000000000000001000001640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Create Schematic Symbol</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Create Schematic Symbol</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/OExp02-IP2SOC/MIO_BUS_IO.v -lang verilog -prj OExp02-IP2SOC -o MIO_BUS.spl -module MIO_BUS -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MIO_BUS.spl C:/Users/86133/Desktop/ise/OExp02-IP2SOC/MIO_BUS.sym 

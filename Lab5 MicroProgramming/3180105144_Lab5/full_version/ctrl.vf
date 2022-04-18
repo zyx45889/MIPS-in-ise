@@ -1,0 +1,129 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ctrl.vf
+// /___/   /\     Timestamp : 07/07/2020 18:19:08
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch
+//Design Name: ctrl
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ctrl(clk, 
+            clk_100mhz, 
+            inst, 
+            rst, 
+            ALUop, 
+            ALUSrcA, 
+            ALUSrcB, 
+            ALU_operation, 
+            Branch, 
+            CPU_MIO, 
+            IorD, 
+            IRWrite, 
+            MemRead, 
+            MemtoReg, 
+            MemWrite, 
+            PCSource, 
+            PCWrite, 
+            PCWriteCond, 
+            RegDst, 
+            RegWrite, 
+            state_out);
+
+    input clk;
+    input clk_100mhz;
+    input [31:0] inst;
+    input rst;
+   output [1:0] ALUop;
+   output ALUSrcA;
+   output [1:0] ALUSrcB;
+   output [2:0] ALU_operation;
+   output Branch;
+   output CPU_MIO;
+   output IorD;
+   output IRWrite;
+   output MemRead;
+   output [1:0] MemtoReg;
+   output MemWrite;
+   output [1:0] PCSource;
+   output PCWrite;
+   output PCWriteCond;
+   output [1:0] RegDst;
+   output RegWrite;
+   output [4:0] state_out;
+   
+   wire O;
+   wire [3:0] XLXN_7;
+   wire [3:0] XLXN_8;
+   wire [4:0] XLXN_9;
+   wire [4:0] XLXN_18;
+   wire [21:0] XLXN_20;
+   wire [1:0] XLXN_37;
+   wire [4:0] XLXN_43;
+   wire XLXN_44;
+   wire [4:0] XLXN_48;
+   wire Y;
+   
+   dispatch1  XLXI_4 (.addra(inst[31:26]), 
+                     .clka(clk_100mhz), 
+                     .douta(XLXN_7[3:0]));
+   dispatch2  XLXI_5 (.addra(inst[31:26]), 
+                     .clka(clk_100mhz), 
+                     .douta(XLXN_8[3:0]));
+   state  XLXI_8 (.clk(clk), 
+                 .rst(rst), 
+                 .statein(XLXN_43[4:0]), 
+                 .state(XLXN_18[4:0]));
+   microinst  XLXI_9 (.a(XLXN_18[4:0]), 
+                     .spo(XLXN_20[21:0]));
+   decode  XLXI_10 (.clk(clk), 
+                   .data_in(XLXN_20[21:0]), 
+                   .Inst_in(inst[31:0]), 
+                   .state(XLXN_18[4:0]), 
+                   .ALUop(ALUop[1:0]), 
+                   .ALUSrcA(ALUSrcA), 
+                   .ALUSrcB(ALUSrcB[1:0]), 
+                   .ALU_operation(ALU_operation[2:0]), 
+                   .Branch(Branch), 
+                   .CPU_MIO(CPU_MIO), 
+                   .IorD(IorD), 
+                   .IRWrite(IRWrite), 
+                   .MemRead(MemRead), 
+                   .MemtoReg(MemtoReg[1:0]), 
+                   .MemWrite(MemWrite), 
+                   .PCSource(PCSource[1:0]), 
+                   .PCWrite(PCWrite), 
+                   .PCWriteCond(PCWriteCond), 
+                   .RegDst(RegDst[1:0]), 
+                   .RegWrite(RegWrite), 
+                   .Seq(XLXN_37[1:0]), 
+                   .state_out(state_out[4:0]));
+   GND  XLXI_11 (.G(O));
+   VCC  XLXI_12 (.P(Y));
+   MUX4T1_5  XLXI_15 (.A0({O, O, O, O, O}), 
+                     .A1(XLXN_7[3:0]), 
+                     .A2(XLXN_8[3:0]), 
+                     .A3(XLXN_9[4:0]), 
+                     .S(XLXN_37[1:0]), 
+                     .C(XLXN_48[4:0]));
+   adder5b  XLXI_16 (.A(XLXN_18[4:0]), 
+                    .C(XLXN_9[4:0]));
+   check_shift  XLXI_19 (.inst(inst[31:0]), 
+                        .shift(XLXN_44));
+   MUX2T1_5  XLXI_21 (.A0(XLXN_48[4:0]), 
+                     .A1({Y, O, O, O, O}), 
+                     .S(XLXN_44), 
+                     .C(XLXN_43[4:0]));
+endmodule

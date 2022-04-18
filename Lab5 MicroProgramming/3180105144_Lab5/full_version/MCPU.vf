@@ -1,0 +1,228 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MCPU.vf
+// /___/   /\     Timestamp : 07/07/2020 18:19:08
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MCPU.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/MCPU.sch
+//Design Name: MCPU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ctrl_MUSER_MCPU(clk, 
+                       clk_100mhz, 
+                       inst, 
+                       rst, 
+                       ALUop, 
+                       ALUSrcA, 
+                       ALUSrcB, 
+                       ALU_operation, 
+                       Branch, 
+                       CPU_MIO, 
+                       IorD, 
+                       IRWrite, 
+                       MemRead, 
+                       MemtoReg, 
+                       MemWrite, 
+                       PCSource, 
+                       PCWrite, 
+                       PCWriteCond, 
+                       RegDst, 
+                       RegWrite, 
+                       state_out);
+
+    input clk;
+    input clk_100mhz;
+    input [31:0] inst;
+    input rst;
+   output [1:0] ALUop;
+   output ALUSrcA;
+   output [1:0] ALUSrcB;
+   output [2:0] ALU_operation;
+   output Branch;
+   output CPU_MIO;
+   output IorD;
+   output IRWrite;
+   output MemRead;
+   output [1:0] MemtoReg;
+   output MemWrite;
+   output [1:0] PCSource;
+   output PCWrite;
+   output PCWriteCond;
+   output [1:0] RegDst;
+   output RegWrite;
+   output [4:0] state_out;
+   
+   wire O;
+   wire [3:0] XLXN_7;
+   wire [3:0] XLXN_8;
+   wire [4:0] XLXN_9;
+   wire [4:0] XLXN_18;
+   wire [21:0] XLXN_20;
+   wire [1:0] XLXN_37;
+   wire [4:0] XLXN_43;
+   wire XLXN_44;
+   wire [4:0] XLXN_48;
+   wire Y;
+   
+   dispatch1  XLXI_4 (.addra(inst[31:26]), 
+                     .clka(clk_100mhz), 
+                     .douta(XLXN_7[3:0]));
+   dispatch2  XLXI_5 (.addra(inst[31:26]), 
+                     .clka(clk_100mhz), 
+                     .douta(XLXN_8[3:0]));
+   state  XLXI_8 (.clk(clk), 
+                 .rst(rst), 
+                 .statein(XLXN_43[4:0]), 
+                 .state(XLXN_18[4:0]));
+   microinst  XLXI_9 (.a(XLXN_18[4:0]), 
+                     .spo(XLXN_20[21:0]));
+   decode  XLXI_10 (.clk(clk), 
+                   .data_in(XLXN_20[21:0]), 
+                   .Inst_in(inst[31:0]), 
+                   .state(XLXN_18[4:0]), 
+                   .ALUop(ALUop[1:0]), 
+                   .ALUSrcA(ALUSrcA), 
+                   .ALUSrcB(ALUSrcB[1:0]), 
+                   .ALU_operation(ALU_operation[2:0]), 
+                   .Branch(Branch), 
+                   .CPU_MIO(CPU_MIO), 
+                   .IorD(IorD), 
+                   .IRWrite(IRWrite), 
+                   .MemRead(MemRead), 
+                   .MemtoReg(MemtoReg[1:0]), 
+                   .MemWrite(MemWrite), 
+                   .PCSource(PCSource[1:0]), 
+                   .PCWrite(PCWrite), 
+                   .PCWriteCond(PCWriteCond), 
+                   .RegDst(RegDst[1:0]), 
+                   .RegWrite(RegWrite), 
+                   .Seq(XLXN_37[1:0]), 
+                   .state_out(state_out[4:0]));
+   GND  XLXI_11 (.G(O));
+   VCC  XLXI_12 (.P(Y));
+   MUX4T1_5  XLXI_15 (.A0({O, O, O, O, O}), 
+                     .A1(XLXN_7[3:0]), 
+                     .A2(XLXN_8[3:0]), 
+                     .A3(XLXN_9[4:0]), 
+                     .S(XLXN_37[1:0]), 
+                     .C(XLXN_48[4:0]));
+   adder5b  XLXI_16 (.A(XLXN_18[4:0]), 
+                    .C(XLXN_9[4:0]));
+   check_shift  XLXI_19 (.inst(inst[31:0]), 
+                        .shift(XLXN_44));
+   MUX2T1_5  XLXI_21 (.A0(XLXN_48[4:0]), 
+                     .A1({Y, O, O, O, O}), 
+                     .S(XLXN_44), 
+                     .C(XLXN_43[4:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module MCPU(clk, 
+            clk_100mhz, 
+            Data_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            inst_out, 
+            mem_w, 
+            PC_out, 
+            state_out, 
+            test);
+
+    input clk;
+    input clk_100mhz;
+    input [31:0] Data_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output [31:0] inst_out;
+   output mem_w;
+   output [31:0] PC_out;
+   output [4:0] state_out;
+   output [31:0] test;
+   
+   wire branch;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_39;
+   wire XLXN_41;
+   wire XLXN_42;
+   wire XLXN_44;
+   wire [2:0] XLXN_45;
+   wire [1:0] XLXN_46;
+   wire [1:0] XLXN_47;
+   wire [1:0] XLXN_48;
+   wire [1:0] XLXN_49;
+   wire [31:0] inst_out_DUMMY;
+   
+   assign inst_out[31:0] = inst_out_DUMMY[31:0];
+   ctrl_MUSER_MCPU  U11 (.clk(clk), 
+                        .clk_100mhz(clk_100mhz), 
+                        .inst(inst_out_DUMMY[31:0]), 
+                        .rst(reset), 
+                        .ALUop(), 
+                        .ALUSrcA(XLXN_9), 
+                        .ALUSrcB(XLXN_48[1:0]), 
+                        .ALU_operation(XLXN_45[2:0]), 
+                        .Branch(branch), 
+                        .CPU_MIO(CPU_MIO), 
+                        .IorD(XLXN_12), 
+                        .IRWrite(XLXN_11), 
+                        .MemRead(XLXN_39), 
+                        .MemtoReg(XLXN_47[1:0]), 
+                        .MemWrite(XLXN_41), 
+                        .PCSource(XLXN_49[1:0]), 
+                        .PCWrite(XLXN_8), 
+                        .PCWriteCond(XLXN_44), 
+                        .RegDst(XLXN_46[1:0]), 
+                        .RegWrite(XLXN_10), 
+                        .state_out(state_out[4:0]));
+   INV  XLXI_5 (.I(XLXN_39), 
+               .O(XLXN_42));
+   AND2  XLXI_6 (.I0(XLXN_41), 
+                .I1(XLXN_42), 
+                .O(mem_w));
+   v_datapath  XLXI_7 (.ALUSrcA(XLXN_9), 
+                      .ALUSrcB(XLXN_48[1:0]), 
+                      .ALU_operation(XLXN_45[2:0]), 
+                      .Branch(branch), 
+                      .clk(clk), 
+                      .data2CPU(Data_in[31:0]), 
+                      .IorD(XLXN_12), 
+                      .IRWrite(XLXN_11), 
+                      .MemtoReg(XLXN_47[1:0]), 
+                      .MIO_ready(MIO_ready), 
+                      .PCSource(XLXN_49[1:0]), 
+                      .PCWrite(XLXN_8), 
+                      .PCWriteCond(XLXN_44), 
+                      .RegDst(XLXN_46[1:0]), 
+                      .RegWrite(XLXN_10), 
+                      .reset(reset), 
+                      .data_out(Data_out[31:0]), 
+                      .Inst(inst_out_DUMMY[31:0]), 
+                      .M_addr(Addr_out[31:0]), 
+                      .PC_Current(PC_out[31:0]), 
+                      .test(test[31:0]), 
+                      .zero());
+endmodule

@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.v -lang verilog -prj MCPU -o my_ctrl.spl -module my_ctrl -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w my_ctrl.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.v -lang verilog -prj MCPU -o my_ctrl.spl -module my_ctrl -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w my_ctrl.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.v -lang verilog -prj MCPU -o my_ctrl.spl -module my_ctrl -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w my_ctrl.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.v -lang verilog -prj MCPU -o my_ctrl.spl -module my_ctrl -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w my_ctrl.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/my_ctrl.sym 

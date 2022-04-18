@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/P2S_IO.v -lang verilog -prj OExp02-IP2SOC -o P2S.spl -module P2S -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 P2S.spl C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/P2S.sym 

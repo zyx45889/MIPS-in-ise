@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/OExp02-IP2SOC/Counter_x_IO.v -lang verilog -prj OExp02-IP2SOC -o Counter_x.spl -module Counter_x -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Counter_x.spl C:/Users/86133/Desktop/ise/OExp02-IP2SOC/Counter_x.sym 

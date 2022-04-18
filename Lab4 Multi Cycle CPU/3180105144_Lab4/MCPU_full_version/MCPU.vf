@@ -1,0 +1,119 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MCPU.vf
+// /___/   /\     Timestamp : 07/06/2020 16:05:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/ipcore_dir -intstyle ise -family kintex7 -verilog C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.sch
+//Design Name: MCPU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MCPU(clk, 
+            Data_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            inst_out, 
+            mem_w, 
+            PC_out, 
+            state_out);
+
+    input clk;
+    input [31:0] Data_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output [31:0] inst_out;
+   output mem_w;
+   output [31:0] PC_out;
+   output [4:0] state_out;
+   
+   wire branch;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_17;
+   wire XLXN_39;
+   wire XLXN_41;
+   wire XLXN_42;
+   wire [2:0] XLXN_54;
+   wire [1:0] XLXN_55;
+   wire [1:0] XLXN_56;
+   wire [1:0] XLXN_57;
+   wire [1:0] XLXN_58;
+   wire XLXN_59;
+   wire [31:0] inst_out_DUMMY;
+   
+   assign inst_out[31:0] = inst_out_DUMMY[31:0];
+   INV  XLXI_5 (.I(XLXN_39), 
+               .O(XLXN_42));
+   AND2  XLXI_6 (.I0(XLXN_41), 
+                .I1(XLXN_42), 
+                .O(mem_w));
+   v_datapath  XLXI_9 (.ALUSrcA(XLXN_9), 
+                      .ALUSrcB(XLXN_57[1:0]), 
+                      .ALU_operation(XLXN_54[2:0]), 
+                      .Branch(branch), 
+                      .clk(clk), 
+                      .data2CPU(Data_in[31:0]), 
+                      .IorD(XLXN_12), 
+                      .IRWrite(XLXN_11), 
+                      .MemtoReg(XLXN_56[1:0]), 
+                      .MIO_ready(MIO_ready), 
+                      .PCSource(XLXN_58[1:0]), 
+                      .PCWrite(XLXN_8), 
+                      .PCWriteCond(XLXN_7), 
+                      .RegDst(XLXN_55[1:0]), 
+                      .RegWrite(XLXN_10), 
+                      .reset(reset), 
+                      .shift(XLXN_59), 
+                      .data_out(Data_out[31:0]), 
+                      .Inst(inst_out_DUMMY[31:0]), 
+                      .M_addr(Addr_out[31:0]), 
+                      .PC_Current(PC_out[31:0]), 
+                      .zero(XLXN_17));
+   my_ctrl  XLXI_12 (.clk(clk), 
+                    .Inst_in(inst_out_DUMMY[31:0]), 
+                    .MIO_ready(MIO_ready), 
+                    .overflow(), 
+                    .reset(reset), 
+                    .zero(XLXN_17), 
+                    .ALUSrcA(XLXN_9), 
+                    .ALUSrcB(XLXN_57[1:0]), 
+                    .ALU_operation(XLXN_54[2:0]), 
+                    .Branch(branch), 
+                    .CPU_MIO(CPU_MIO), 
+                    .IorD(XLXN_12), 
+                    .IRWrite(XLXN_11), 
+                    .MemRead(XLXN_39), 
+                    .MemtoReg(XLXN_56[1:0]), 
+                    .MemWrite(XLXN_41), 
+                    .PCSource(XLXN_58[1:0]), 
+                    .PCWrite(XLXN_8), 
+                    .PCWriteCond(XLXN_7), 
+                    .RegDst(XLXN_55[1:0]), 
+                    .RegWrite(XLXN_10), 
+                    .shift(XLXN_59), 
+                    .state_out(state_out[4:0]));
+endmodule

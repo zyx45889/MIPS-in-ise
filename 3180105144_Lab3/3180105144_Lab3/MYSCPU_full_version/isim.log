@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\test_SALU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/test_SALU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX16T1_32.v" Line 22.  For instance m0/m0/, width 3 of formal port s is not equal to width 32 of actual signal A0.
+WARNING: For instance m0/m0/, width 32 of formal port I7 is not equal to width 3 of actual.
+WARNING: File "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX16T1_32.v" Line 30.  For instance m0/m1/, width 3 of formal port s is not equal to width 32 of actual signal A8.
+WARNING: For instance m0/m1/, width 32 of formal port I7 is not equal to width 3 of actual.
+WARNING: File "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX16T1_32.v" Line 22.  For instance m1/m0/, width 3 of formal port s is not equal to width 32 of actual signal A0.
+WARNING: For instance m1/m0/, width 32 of formal port I7 is not equal to width 3 of actual.
+WARNING: File "C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/MUX16T1_32.v" Line 30.  For instance m1/m1/, width 3 of formal port s is not equal to width 32 of actual signal A8.
+WARNING: For instance m1/m1/, width 32 of formal port I7 is not equal to width 3 of actual.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

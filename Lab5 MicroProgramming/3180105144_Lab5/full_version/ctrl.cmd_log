@@ -1,0 +1,8 @@
+sch2hdl -sympath C:/Users/86133/Desktop/ise/MicroProgramming/ipcore_dir -intstyle ise -family kintex7 -verilog ctrl_drc.vf -w C:/Users/86133/Desktop/ise/MicroProgramming/ctrl.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym ctrl C:/Users/86133/Desktop/ise/MicroProgramming/ctrl.sch C:/Users/86133/Desktop/ise/MicroProgramming/ctrl.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/MicroProgramming/ipcore_dir -intstyle ise -family kintex7 -verilog ctrl_drc.vf -w C:/Users/86133/Desktop/ise/MicroProgramming/ctrl.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym ctrl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sym 
+sch2hdl -sympath C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ipcore_dir -intstyle ise -family kintex7 -verilog ctrl_drc.vf -w C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym ctrl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym ctrl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym ctrl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sch C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/ctrl.sym 

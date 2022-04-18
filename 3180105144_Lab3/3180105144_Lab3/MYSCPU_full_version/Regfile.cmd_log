@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/Regfile.v -lang verilog -prj MYSCPU -o Regfile.spl -module Regfile -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Regfile.spl C:/Users/86133/Desktop/ise/MYSCPU/Regfile.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.v -lang verilog -prj MYSCPU -o Regfile.spl -module Regfile -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Regfile.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.v -lang verilog -prj MYSCPU -o Regfile.spl -module Regfile -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w Regfile.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.v -lang verilog -prj MYSCPU -o Regfile.spl -module Regfile -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w Regfile.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/Regfile.sym 

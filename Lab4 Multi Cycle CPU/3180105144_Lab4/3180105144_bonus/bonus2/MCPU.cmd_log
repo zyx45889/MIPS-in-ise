@@ -1,0 +1,9 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MCPU_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/MCPU.sch 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.xst" -ofn "C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.syr" 
+sch2sym -intstyle ise -family kintex7 -w -refsym MCPU C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.sch C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/MCPU.sym 

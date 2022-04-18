@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MicroProgramming/state.v -lang verilog -prj MicroProgramming -o state.spl -module state -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 state.spl C:/Users/86133/Desktop/ise/MicroProgramming/state.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/state.v -lang verilog -prj MicroProgramming -o state.spl -module state -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w state.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/state.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/state.v -lang verilog -prj MicroProgramming -o state.spl -module state -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w state.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/state.sym 

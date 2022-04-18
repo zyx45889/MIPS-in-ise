@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/Seg_Map.v -lang verilog -prj OExp02-IP2SOC -o Seg_Map.spl -module Seg_Map -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w Seg_Map.spl C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/Seg_Map.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/Seg_Map.v -lang verilog -prj OExp02-IP2SOC -o Seg_map.spl -module Seg_map -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w Seg_map.spl C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/Seg_map.sym 

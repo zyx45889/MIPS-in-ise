@@ -1,0 +1,13 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/v_datapath.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/MCPU_full_version/v_datapath.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.v -lang verilog -prj MCPU -o v_datapath.spl -module v_datapath -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w v_datapath.spl C:/Users/86133/Desktop/ise/3180105144_Lab4/3180105144_Lab4/bonus2/v_datapath.sym 

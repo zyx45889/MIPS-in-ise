@@ -1,0 +1,16 @@
+[Inputs]
+rst
+clk
+Wreg
+=RN1[4:0]=
+=RN2[4:0]=
+=Des[4:0]=
+=datain[31:0]=
+[Outputs]
+=A[31:0]=
+=B[31:0]=
+=info[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Regfile
+

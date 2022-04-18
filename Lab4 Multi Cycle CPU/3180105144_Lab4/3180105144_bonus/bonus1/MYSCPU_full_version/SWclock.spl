@@ -1,0 +1,8 @@
+[Inputs]
+sw
+[Outputs]
+Clk_CPU
+[BiDir]
+[ATTRIBUTES]
+VeriModel SWclock
+

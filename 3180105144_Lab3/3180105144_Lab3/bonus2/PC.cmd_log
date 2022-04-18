@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/PC.v -lang verilog -prj MYSCPU -o PC.spl -module PC -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PC.spl C:/Users/86133/Desktop/ise/MYSCPU/PC.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/PC.v -lang verilog -prj MYSCPU -o PC.spl -module PC -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PC.spl C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/PC.sym 

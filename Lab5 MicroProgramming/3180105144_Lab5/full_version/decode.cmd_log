@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MicroProgramming/decode.v -lang verilog -prj MicroProgramming -o decode.spl -module decode -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w decode.spl C:/Users/86133/Desktop/ise/MicroProgramming/decode.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.v -lang verilog -prj MicroProgramming -o decode.spl -module decode -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w decode.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.v -lang verilog -prj MicroProgramming -o decode.spl -module decode -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w decode.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.v -lang verilog -prj MicroProgramming -o decode.spl -module decode -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w decode.spl C:/Users/86133/Desktop/ise/3180105144_Lab5/3180105144_Lab5/full_version/decode.sym 

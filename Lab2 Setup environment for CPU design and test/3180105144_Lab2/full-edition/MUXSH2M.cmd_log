@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/MUXSH2M.v -lang verilog -prj OExp02-IP2SOC -o MUXSH2M.spl -module MUXSH2M -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w MUXSH2M.spl C:/Users/86133/Desktop/ise/3180105144_Lab2/3180105144_Lab2/full-edition/MUXSH2M.sym 

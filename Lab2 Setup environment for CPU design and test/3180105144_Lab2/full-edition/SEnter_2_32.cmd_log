@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/OExp02-IP2SOC/SEnter_2_32_IO.v -lang verilog -prj OExp02-IP2SOC -o SEnter_2_32.spl -module SEnter_2_32 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SEnter_2_32.spl C:/Users/86133/Desktop/ise/OExp02-IP2SOC/SEnter_2_32.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/LeftShift2.v -lang verilog -prj MYSCPU -o LeftShift2.spl -module LeftShift2 -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 LeftShift2.spl C:/Users/86133/Desktop/ise/MYSCPU/LeftShift2.sym 

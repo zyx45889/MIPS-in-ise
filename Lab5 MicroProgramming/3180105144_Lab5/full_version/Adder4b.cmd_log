@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym Adder4b C:/Users/86133/Desktop/ise/MicroProgramming/Adder4b.sch C:/Users/86133/Desktop/ise/MicroProgramming/Adder4b.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym Adder4b C:/Users/86133/Desktop/ise/MicroProgramming/Adder4b.sch C:/Users/86133/Desktop/ise/MicroProgramming/Adder4b.sym 

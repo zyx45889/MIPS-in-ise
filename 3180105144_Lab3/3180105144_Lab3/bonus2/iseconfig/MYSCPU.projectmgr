@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MYSCPU" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU32b C:|Users|86133|Desktop|ise|MYSCPU|ALU32b.v</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|MYSCPU|ALU4b.sch/XLXI_1 - AddSub4b/XLXI_2 - AddSub1b</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|MYSCPU|ALU4b.sch/XLXI_1 - AddSub4b/XLXI_3 - AddSub1b</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|MYSCPU|ALU4b.sch/XLXI_1 - AddSub4b/XLXI_5 - AddSub1b</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|86133|Desktop|ise|MYSCPU|ALU4b.vf/XLXI_1 - AddSub4b_MUSER_ALU4b</ClosedNode>
+         <ClosedNode>/ALUSCPU C:|Users|86133|Desktop|ise|MYSCPU|ALUSCPU.v</ClosedNode>
+         <ClosedNode>/ALUSCPU C:|Users|86133|Desktop|ise|MYSCPU|ALUSCPU.v/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/AddSub1b C:|Users|86133|Desktop|ise|MYSCPU|AddSub1b.vf</ClosedNode>
+         <ClosedNode>/AddSub4b C:|Users|86133|Desktop|ise|MYSCPU|AddSub4b.vf</ClosedNode>
+         <ClosedNode>/Adder32b C:|Users|86133|Desktop|ise|MYSCPU|Adder32b.v/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/MUX2T1_32 C:|Users|86133|Desktop|ise|MYSCPU|MUX2T1_32.v/m1 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/MUX2T1_32 C:|Users|86133|Desktop|ise|MYSCPU|MUX2T1_32.v/m2 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/MUX2T1_32 C:|Users|86133|Desktop|ise|MYSCPU|MUX2T1_32.v/m3 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/MUX2T1_5 C:|Users|86133|Desktop|ise|MYSCPU|MUX2T1_5.v</ClosedNode>
+         <ClosedNode>/MUX2T1_8 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|MUX2T1_8.v</ClosedNode>
+         <ClosedNode>/Reg16 C:|Users|86133|Desktop|ise|MYSCPU|Reg16.v</ClosedNode>
+         <ClosedNode>/Reg16 C:|Users|86133|Desktop|ise|MYSCPU|Reg16.v/m2 - Reg4</ClosedNode>
+         <ClosedNode>/Reg16 C:|Users|86133|Desktop|ise|MYSCPU|Reg16.v/m3 - Reg4</ClosedNode>
+         <ClosedNode>/Reg16 C:|Users|86133|Desktop|ise|MYSCPU|Reg16.v/m4 - Reg4</ClosedNode>
+         <ClosedNode>/Reg4 C:|Users|86133|Desktop|ise|MYSCPU|Reg4.v</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_10 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m1 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m2 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m3 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m4 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m5 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m6 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m7 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b/m8 - ALU4b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_11 - ALUSCPU/m2 - SLL</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_12 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_13 - MUX2T1_32/m1 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_13 - MUX2T1_32/m2 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_13 - MUX2T1_32/m3 - MUX2T1_8</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_14 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_16 - Adder32b/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_17 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_18 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_2 - Adder32b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_20 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_24 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_6 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SCPU.sch/XLXI_7 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_10 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_11 - ALUSCPU/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_12 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_13 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_14 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_16 - Adder32b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_17 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_18 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_2 - Adder32b</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_20 - MUX2T1_32</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_24 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_5 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_6 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SCPU C:|Users|86133|Desktop|ise|MYSCPU|SCPU.sch/XLXI_7 - MUX2T1_5</ClosedNode>
+         <ClosedNode>/SSeg7_Dev C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|SSeg7_Dev.sch</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS0 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS1 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS2 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS3 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS4 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS6 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev/XLXI_3 - HexTo8SEG/HTS7 - Hex2Seg</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_22 - SCPU/XLXI_11 - ALUSCPU/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_22 - SCPU/XLXI_11 - ALUSCPU/m2 - SLL</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_22 - SCPU/XLXI_16 - Adder32b/m1 - ALU32b</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_22 - SCPU/XLXI_2 - Adder32b</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX1_DispData - MUX8T1_32</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m1 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m2 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m3 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m4 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m5 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m6 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX2_Blink - MUX8T1_8/m7 - MUX8T1_1</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32/MUX3_Point - MUX8T1_8</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MUX1_DispData - MUX8T1_32 (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/bonus2/MUX8T1_32.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >22</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000194000000020000000000000000000000000200000064ffffffff000000810000000300000002000001940000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>MUX1_DispData - MUX8T1_32 (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/bonus2/MUX8T1_32.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Adder4b.sym</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Manage Configuration Project (iMPACT)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000164000000010000000100000000000000000000000064ffffffff000000810000000000000001000001640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Manage Configuration Project (iMPACT)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/MUX2T1_8 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|MUX2T1_8.v</ClosedNode>
+         <ClosedNode>/SCPU_SCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SCPU.v</ClosedNode>
+         <ClosedNode>/SCPU_SCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SCPU.v/UUT - SCPU/XLXI_11 - ALUSCPU</ClosedNode>
+         <ClosedNode>/SCPU_SCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SCPU.v/UUT - SCPU/XLXI_16 - Adder32b</ClosedNode>
+         <ClosedNode>/SCPU_SCPU_sch_tb C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SCPU.v/UUT - SCPU/XLXI_2 - Adder32b</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_21 - SSeg7_Dev</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_22 - SCPU</ClosedNode>
+         <ClosedNode>/lab2 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|lab2.sch/XLXI_3 - Multi_8CH32</ClosedNode>
+         <ClosedNode>/testALU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|testALU.v</ClosedNode>
+         <ClosedNode>/testALU C:|Users|86133|Desktop|ise|MYSCPU|testALU.v</ClosedNode>
+         <ClosedNode>/test_4T1 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_4T1.v</ClosedNode>
+         <ClosedNode>/test_LuiExt C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_LuiExt.v</ClosedNode>
+         <ClosedNode>/test_LuiExt C:|Users|86133|Desktop|ise|MYSCPU|test_LuiExt.v</ClosedNode>
+         <ClosedNode>/test_SALU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SALU.v</ClosedNode>
+         <ClosedNode>/test_SALU C:|Users|86133|Desktop|ise|MYSCPU|test_SALU.v</ClosedNode>
+         <ClosedNode>/test_SLL C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SLL.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>SCPU_SCPU_sch_tb (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/test_SCPU.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >23</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000175000000020000000000000000000000000200000064ffffffff000000810000000300000002000001750000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>SCPU_SCPU_sch_tb (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/test_SCPU.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000122000000e401000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/testALU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|testALU.v</ClosedNode>
+         <ClosedNode>/test_4T1 C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_4T1.v</ClosedNode>
+         <ClosedNode>/test_LuiExt C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_LuiExt.v</ClosedNode>
+         <ClosedNode>/test_SALU C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SALU.v</ClosedNode>
+         <ClosedNode>/test_SLL C:|Users|86133|Desktop|ise|3180105144_Lab3|3180105144_Lab3|MYSCPU_full_version|test_SLL.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>SCPU_SCPU_sch_tb (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/test_SCPU.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000fe000000020000000000000000000000000200000064ffffffff000000810000000300000002000000fe0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>SCPU_SCPU_sch_tb (C:/Users/86133/Desktop/ise/3180105144_Lab3/3180105144_Lab3/MYSCPU_full_version/test_SCPU.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000175000000010000000100000000000000000000000064ffffffff000000810000000000000001000001750000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

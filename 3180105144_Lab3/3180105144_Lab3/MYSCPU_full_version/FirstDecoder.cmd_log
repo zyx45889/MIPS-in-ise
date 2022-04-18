@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/FirstDecoder.v -lang verilog -prj MYSCPU -o FirstDecoder.spl -module FirstDecoder -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 FirstDecoder.spl C:/Users/86133/Desktop/ise/MYSCPU/FirstDecoder.sym 
+vhdtdtfi -lib work C:/Users/86133/Desktop/ise/MYSCPU/FirstDecoder.v -lang verilog -prj MYSCPU -o FirstDecoder.spl -module FirstDecoder -template D:/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 FirstDecoder.spl C:/Users/86133/Desktop/ise/MYSCPU/FirstDecoder.sym 

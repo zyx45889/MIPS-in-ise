@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MCPU_drc.vf -w C:/Users/86133/Desktop/ise/MCPU/MCPU.sch 

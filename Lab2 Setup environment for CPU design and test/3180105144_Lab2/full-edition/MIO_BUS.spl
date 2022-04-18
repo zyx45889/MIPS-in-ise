@@ -1,0 +1,27 @@
+[Inputs]
+clk
+rst
+mem_w
+counter0_out
+counter1_out
+counter2_out
+=BTN[3:0]=
+=SW[15:0]=
+=Cpu_data2bus[31:0]=
+=addr_bus[31:0]=
+=ram_data_out[31:0]=
+=led_out[15:0]=
+=counter_out[31:0]=
+[Outputs]
+data_ram_we
+GPIOf0000000_we
+GPIOe0000000_we
+counter_we
+=Cpu_data4bus[31:0]=
+=ram_data_in[31:0]=
+=ram_addr[9:0]=
+=Peripheral_in[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MIO_BUS
+

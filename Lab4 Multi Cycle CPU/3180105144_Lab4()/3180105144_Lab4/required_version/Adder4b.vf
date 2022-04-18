@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Adder4b.vf
+// /___/   /\     Timestamp : 11/12/2019 16:20:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\software\Xilinx_ISE\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family kintex7 -verilog Adder4b.vf -w X:/FlazeIsAlwaysNaive/ISE_Projects/Experiment_8/Adder/Adder4b.sch
+//Design Name: Adder4b
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Adder4b(A, 
+               B, 
+               Ci, 
+               Co, 
+               S);
+
+    input [3:0] A;
+    input [3:0] B;
+    input Ci;
+   output Co;
+   output [3:0] S;
+   
+   wire XLXN_12;
+   wire XLXN_14;
+   wire XLXN_15;
+   
+   adder_1bit  XLXI_1 (.a(A[0]), 
+                      .b(B[0]), 
+                      .ci(Ci), 
+                      .co(XLXN_12), 
+                      .s(S[0]));
+   adder_1bit  XLXI_2 (.a(A[1]), 
+                      .b(B[1]), 
+                      .ci(XLXN_12), 
+                      .co(XLXN_14), 
+                      .s(S[1]));
+   adder_1bit  XLXI_3 (.a(A[2]), 
+                      .b(B[2]), 
+                      .ci(XLXN_14), 
+                      .co(XLXN_15), 
+                      .s(S[2]));
+   adder_1bit  XLXI_4 (.a(A[3]), 
+                      .b(B[3]), 
+                      .ci(XLXN_15), 
+                      .co(Co), 
+                      .s(S[3]));
+endmodule

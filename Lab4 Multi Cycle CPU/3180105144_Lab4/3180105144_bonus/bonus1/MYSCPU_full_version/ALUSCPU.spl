@@ -1,0 +1,13 @@
+[Inputs]
+=A[31:0]=
+=B[31:0]=
+=op[2:0]=
+[Outputs]
+zero
+=C[31:0]=
+=S[1:0]=
+=result1[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALUSCPU
+

@@ -1,0 +1,873 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: SCPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SCPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SCPU"
+Output Format                      : NGC
+Target Device                      : xc7k160t-1-ffg676
+
+---- Source Options
+Top Module Name                    : SCPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\adder_1bit.v" into library work
+Parsing module <adder_1bit>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX4T1_32.v" into library work
+Parsing module <MUX4T1_32>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\AddSub1b.vf" into library work
+Parsing module <AddSub1b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\myOr2b4.vf" into library work
+Parsing module <myOr2b4>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\myAnd2b4.vf" into library work
+Parsing module <myAnd2b4>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Mux4to14b.vf" into library work
+Parsing module <Mux4to14b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Mux4to1.vf" into library work
+Parsing module <Mux4to1>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\AddSub4b.vf" into library work
+Parsing module <AddSub4b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX16T1_32.v" into library work
+Parsing module <MUX16T1_32>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALU4b.vf" into library work
+Parsing module <AddSub4b_MUSER_ALU4b>.
+Parsing module <ALU4b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SRL.v" into library work
+Parsing module <SRL>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SLL.v" into library work
+Parsing module <SLL>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALU32b.v" into library work
+Parsing module <ALU32b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Taken.v" into library work
+Parsing module <Taken>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Regfile.v" into library work
+Parsing module <Regfile>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX2T1_5.v" into library work
+Parsing module <MUX2T1_5>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX2T1_32.v" into library work
+Parsing module <MUX2T1_32>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\LuiExt.v" into library work
+Parsing module <LuiExt>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\LeftShift2.v" into library work
+Parsing module <LeftShift2>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\J.v" into library work
+Parsing module <J>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" into library work
+Parsing module <FirstDecoder>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Ext_32.v" into library work
+Parsing module <Ext_32>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v" into library work
+Parsing module <ALUSCPU>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Adder32b.v" into library work
+Parsing module <Adder32b>.
+Analyzing Verilog file "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SCPU.vf" into library work
+Parsing module <SCPU>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <SCPU>.
+
+Elaborating module <PC>.
+
+Elaborating module <Adder32b>.
+
+Elaborating module <ALU32b>.
+
+Elaborating module <ALU4b>.
+
+Elaborating module <AddSub4b_MUSER_ALU4b>.
+
+Elaborating module <AddSub1b>.
+
+Elaborating module <adder_1bit>.
+
+Elaborating module <XOR2>.
+
+Elaborating module <myAnd2b4>.
+
+Elaborating module <AND2>.
+
+Elaborating module <myOr2b4>.
+
+Elaborating module <OR2>.
+
+Elaborating module <Mux4to1>.
+
+Elaborating module <INV>.
+
+Elaborating module <OR4>.
+
+Elaborating module <Mux4to14b>.
+
+Elaborating module <GND>.
+WARNING:HDLCompiler:1127 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Adder32b.v" Line 27: Assignment to C0 ignored, since the identifier is never used
+
+Elaborating module <FirstDecoder>.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 48: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 49: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 50: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 51: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 52: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 53: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 54: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 55: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 56: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 57: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 59: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 60: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 61: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 63: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 64: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 65: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v" Line 72: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <Regfile>.
+
+Elaborating module <MUX2T1_5>.
+
+Elaborating module <Ext_32>.
+
+Elaborating module <LuiExt>.
+
+Elaborating module <MUX2T1_32>.
+
+Elaborating module <ALUSCPU>.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v" Line 31: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v" Line 32: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v" Line 34: Assignment to co ignored, since the identifier is never used
+
+Elaborating module <SLL>.
+
+Elaborating module <MUX16T1_32>.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <MUX4T1_32>.
+
+Elaborating module <SRL>.
+
+Elaborating module <LeftShift2>.
+
+Elaborating module <J>.
+
+Elaborating module <Taken>.
+
+Elaborating module <VCC>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SCPU>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SCPU.vf".
+INFO:Xst:3210 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SCPU.vf" line 135: Output port <S> of the instance <XLXI_11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SCPU.vf" line 135: Output port <result1> of the instance <XLXI_11> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <SCPU> synthesized.
+
+Synthesizing Unit <PC>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\PC.v".
+    Found 32-bit register for signal <a>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <PC> synthesized.
+
+Synthesizing Unit <Adder32b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Adder32b.v".
+INFO:Xst:3210 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Adder32b.v" line 27: Output port <Co> of the instance <m1> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Adder32b> synthesized.
+
+Synthesizing Unit <ALU32b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALU32b.v".
+    Summary:
+	no macro.
+Unit <ALU32b> synthesized.
+
+Synthesizing Unit <ALU4b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALU4b.vf".
+    Summary:
+	no macro.
+Unit <ALU4b> synthesized.
+
+Synthesizing Unit <AddSub4b_MUSER_ALU4b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALU4b.vf".
+    Summary:
+	no macro.
+Unit <AddSub4b_MUSER_ALU4b> synthesized.
+
+Synthesizing Unit <AddSub1b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\AddSub1b.vf".
+    Summary:
+	no macro.
+Unit <AddSub1b> synthesized.
+
+Synthesizing Unit <adder_1bit>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\adder_1bit.v".
+    Summary:
+Unit <adder_1bit> synthesized.
+
+Synthesizing Unit <myAnd2b4>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\myAnd2b4.vf".
+    Summary:
+	no macro.
+Unit <myAnd2b4> synthesized.
+
+Synthesizing Unit <myOr2b4>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\myOr2b4.vf".
+    Summary:
+	no macro.
+Unit <myOr2b4> synthesized.
+
+Synthesizing Unit <Mux4to1>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Mux4to1.vf".
+    Summary:
+	no macro.
+Unit <Mux4to1> synthesized.
+
+Synthesizing Unit <Mux4to14b>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Mux4to14b.vf".
+    Summary:
+	no macro.
+Unit <Mux4to14b> synthesized.
+
+Synthesizing Unit <FirstDecoder>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\FirstDecoder.v".
+    Summary:
+	no macro.
+Unit <FirstDecoder> synthesized.
+
+Synthesizing Unit <Regfile>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Regfile.v".
+    Found 992-bit register for signal <n0051[991:0]>.
+    Found 32-bit 31-to-1 multiplexer for signal <RN1[4]_a[31][31]_wide_mux_1_OUT> created at line 34.
+    Found 32-bit 31-to-1 multiplexer for signal <RN2[4]_a[31][31]_wide_mux_4_OUT> created at line 35.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+Unit <Regfile> synthesized.
+
+Synthesizing Unit <MUX2T1_5>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX2T1_5.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_5> synthesized.
+
+Synthesizing Unit <Ext_32>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Ext_32.v".
+    Summary:
+	no macro.
+Unit <Ext_32> synthesized.
+
+Synthesizing Unit <LuiExt>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\LuiExt.v".
+    Summary:
+	no macro.
+Unit <LuiExt> synthesized.
+
+Synthesizing Unit <MUX2T1_32>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX2T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_32> synthesized.
+
+Synthesizing Unit <ALUSCPU>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v".
+INFO:Xst:3210 - "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\ALUSCPU.v" line 34: Output port <Co> of the instance <m1> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <ALUSCPU> synthesized.
+
+Synthesizing Unit <SLL>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SLL.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <SLL> synthesized.
+
+Synthesizing Unit <MUX16T1_32>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX16T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX16T1_32> synthesized.
+
+Synthesizing Unit <MUX8T1_32>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX8T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX8T1_32> synthesized.
+
+Synthesizing Unit <MUX4T1_32>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\MUX4T1_32.v".
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <MUX4T1_32> synthesized.
+
+Synthesizing Unit <SRL>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\SRL.v".
+WARNING:Xst:647 - Input <B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <SRL> synthesized.
+
+Synthesizing Unit <LeftShift2>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\LeftShift2.v".
+WARNING:Xst:647 - Input <Datain<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <LeftShift2> synthesized.
+
+Synthesizing Unit <J>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\J.v".
+WARNING:Xst:647 - Input <PC<27:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <J> synthesized.
+
+Synthesizing Unit <Taken>.
+    Related source file is "C:\Users\86133\Desktop\ise\3180105144_Lab3\3180105144_Lab3\MYSCPU_full_version\Taken.v".
+    Summary:
+	no macro.
+Unit <Taken> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 2
+ 32-bit register                                       : 1
+ 992-bit register                                      : 1
+# Multiplexers                                         : 79
+ 32-bit 2-to-1 multiplexer                             : 74
+ 32-bit 31-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 3
+# Xors                                                 : 192
+ 1-bit xor2                                            : 192
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1024
+ Flip-Flops                                            : 1024
+# Multiplexers                                         : 79
+ 32-bit 2-to-1 multiplexer                             : 74
+ 32-bit 31-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 3
+# Xors                                                 : 192
+ 1-bit xor2                                            : 192
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PC> ...
+
+Optimizing unit <Mux4to1> ...
+
+Optimizing unit <Mux4to14b> ...
+
+Optimizing unit <SCPU> ...
+
+Optimizing unit <Regfile> ...
+
+Optimizing unit <ALU32b> ...
+
+Optimizing unit <ALUSCPU> ...
+WARNING:Xst:1710 - FF/Latch <XLXI_4/a_31_1> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_33> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_65> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_97> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_129> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_161> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_193> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_225> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_257> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_289> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_321> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_353> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_385> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_417> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_449> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_481> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_513> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_545> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_577> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_609> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_641> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_673> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_705> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_737> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_769> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_801> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_833> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_865> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_897> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_929> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_4/a_31_961> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_1/a_1> (without init value) has a constant value of 0 in block <SCPU>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SCPU, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 992
+ Flip-Flops                                            : 992
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SCPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 3369
+#      AND2                        : 768
+#      GND                         : 1
+#      INV                         : 97
+#      LUT2                        : 16
+#      LUT3                        : 551
+#      LUT4                        : 62
+#      LUT5                        : 206
+#      LUT6                        : 1299
+#      MUXF7                       : 56
+#      OR2                         : 96
+#      OR4                         : 120
+#      VCC                         : 1
+#      XOR2                        : 96
+# FlipFlops/Latches                : 992
+#      FDCE                        : 992
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 132
+#      IBUF                        : 34
+#      OBUF                        : 98
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             992  out of  202800     0%  
+ Number of Slice LUTs:                 2231  out of  101400     2%  
+    Number used as Logic:              2231  out of  101400     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2515
+   Number with an unused Flip Flop:    1523  out of   2515    60%  
+   Number with an unused LUT:           284  out of   2515    11%  
+   Number of fully used LUT-FF pairs:   708  out of   2515    28%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                         165
+ Number of bonded IOBs:                 133  out of    400    33%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 992   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 21.972ns (Maximum Frequency: 45.512MHz)
+   Minimum input arrival time before clock: 23.400ns
+   Maximum output required time after clock: 21.153ns
+   Maximum combinational path delay: 22.581ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 21.972ns (frequency: 45.512MHz)
+  Total number of paths / destination ports: 89152510 / 992
+-------------------------------------------------------------------------
+Delay:               21.972ns (Levels of Logic = 32)
+  Source:            XLXI_4/a_31_928 (FF)
+  Destination:       XLXI_1/a_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_4/a_31_928 to XLXI_1/a_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.282   0.616  XLXI_4/a_31_928 (XLXI_4/a_31_928)
+     LUT5:I2->O            1   0.053   0.635  XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_82 (XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_82)
+     LUT6:I2->O            2   0.053   0.491  XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_4 (XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_4)
+     LUT6:I4->O            3   0.053   0.739  XLXI_12/Mmux_C110 (XLXN_36<0>)
+     XOR2:I1->O            3   0.067   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_1/XLXI_2 (XLXI_11/m1/m1/XLXI_1/XLXI_1/XLXN_3)
+     LUT6:I5->O            3   0.053   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_2/XLXI_1/out1 (XLXI_11/m1/m1/XLXI_1/XLXN_16)
+     LUT5:I4->O            2   0.053   0.745  XLXI_11/m1/m1/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m1/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m1/XLXI_4/XLXI_8 (XLXI_11/m1/m1/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m1/XLXI_4/XLXI_19 (XLXI_11/m1/C0)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m2/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m2/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m2/XLXI_4/XLXI_8 (XLXI_11/m1/m2/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m2/XLXI_4/XLXI_19 (XLXI_11/m1/C1)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m3/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m3/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m3/XLXI_4/XLXI_8 (XLXI_11/m1/m3/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m3/XLXI_4/XLXI_19 (XLXI_11/m1/C2)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m4/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m4/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m4/XLXI_4/XLXI_8 (XLXI_11/m1/m4/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m4/XLXI_4/XLXI_19 (XLXI_11/m1/C3)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m5/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m5/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m5/XLXI_4/XLXI_8 (XLXI_11/m1/m5/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m5/XLXI_4/XLXI_19 (XLXI_11/m1/C4)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m6/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m6/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m6/XLXI_4/XLXI_8 (XLXI_11/m1/m6/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m6/XLXI_4/XLXI_19 (XLXI_11/m1/C5)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m7/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m7/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m7/XLXI_4/XLXI_8 (XLXI_11/m1/m7/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m7/XLXI_4/XLXI_19 (XLXI_11/m1/C6)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m8/XLXI_1/XLXI_2/XLXI_1/Mxor_s_xo<0>1 (XLXI_11/m1/m8/XLXN_25<1>)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m8/XLXI_5/XLXI_25 (XLXI_11/m1/m8/XLXI_5/XLXN_29)
+     OR4:I2->O             3   0.157   0.427  XLXI_11/m1/m8/XLXI_5/XLXI_28 (XLXI_11/result1<29>)
+     LUT6:I5->O            1   0.053   0.725  XLXI_11/zero<0>8_SW0 (N14)
+     LUT6:I1->O           31   0.053   0.565  XLXI_17/GND_24_o_GND_24_o_equal_1_o (XLXI_17/GND_24_o_GND_24_o_equal_1_o)
+     LUT5:I4->O            1   0.053   0.000  XLXI_20/Mmux_C12 (XLXN_53<0>)
+     FDCE:D                    0.011          XLXI_1/a_0
+    ----------------------------------------
+    Total                     21.972ns (2.835ns logic, 19.137ns route)
+                                       (12.9% logic, 87.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 617481589 / 2976
+-------------------------------------------------------------------------
+Offset:              23.400ns (Levels of Logic = 35)
+  Source:            inst_in<29> (PAD)
+  Destination:       XLXI_1/a_31 (FF)
+  Destination Clock: clk rising
+
+  Data Path: inst_in<29> to XLXI_1/a_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   0.000   0.837  inst_in_29_IBUF (inst_in_29_IBUF)
+     LUT6:I1->O            1   0.053   0.413  XLXI_24/GND_21_o_GND_21_o_equal_1_o_SW0 (N0)
+     LUT6:I5->O            8   0.053   0.648  XLXI_24/GND_21_o_GND_21_o_equal_1_o (XLXI_24/GND_21_o_GND_21_o_equal_1_o)
+     LUT3:I0->O          277   0.053   0.931  XLXI_24/Mmux_C21 (XLXN_24<1>)
+     LUT5:I0->O            1   0.053   0.635  XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_82 (XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_82)
+     LUT6:I2->O            1   0.053   0.485  XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_4 (XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_4)
+     LUT6:I4->O           15   0.053   0.577  XLXI_4/Mmux_A12 (XLXN_59<0>)
+     LUT6:I4->O            3   0.053   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_2/XLXI_1/out1 (XLXI_11/m1/m1/XLXI_1/XLXN_16)
+     LUT5:I4->O            2   0.053   0.745  XLXI_11/m1/m1/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m1/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m1/XLXI_4/XLXI_8 (XLXI_11/m1/m1/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m1/XLXI_4/XLXI_19 (XLXI_11/m1/C0)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m2/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m2/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m2/XLXI_4/XLXI_8 (XLXI_11/m1/m2/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m2/XLXI_4/XLXI_19 (XLXI_11/m1/C1)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m3/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m3/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m3/XLXI_4/XLXI_8 (XLXI_11/m1/m3/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m3/XLXI_4/XLXI_19 (XLXI_11/m1/C2)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m4/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m4/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m4/XLXI_4/XLXI_8 (XLXI_11/m1/m4/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m4/XLXI_4/XLXI_19 (XLXI_11/m1/C3)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m5/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m5/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m5/XLXI_4/XLXI_8 (XLXI_11/m1/m5/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m5/XLXI_4/XLXI_19 (XLXI_11/m1/C4)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m6/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m6/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m6/XLXI_4/XLXI_8 (XLXI_11/m1/m6/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m6/XLXI_4/XLXI_19 (XLXI_11/m1/C5)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m7/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m7/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m7/XLXI_4/XLXI_8 (XLXI_11/m1/m7/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m7/XLXI_4/XLXI_19 (XLXI_11/m1/C6)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m8/XLXI_1/XLXI_2/XLXI_1/Mxor_s_xo<0>1 (XLXI_11/m1/m8/XLXN_25<1>)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m8/XLXI_5/XLXI_25 (XLXI_11/m1/m8/XLXI_5/XLXN_29)
+     OR4:I2->O             3   0.157   0.427  XLXI_11/m1/m8/XLXI_5/XLXI_28 (XLXI_11/result1<29>)
+     LUT6:I5->O            1   0.053   0.725  XLXI_11/zero<0>8_SW0 (N14)
+     LUT6:I1->O           31   0.053   0.565  XLXI_17/GND_24_o_GND_24_o_equal_1_o (XLXI_17/GND_24_o_GND_24_o_equal_1_o)
+     LUT5:I4->O            1   0.053   0.000  XLXI_20/Mmux_C12 (XLXN_53<0>)
+     FDCE:D                    0.011          XLXI_1/a_0
+    ----------------------------------------
+    Total                     23.400ns (2.645ns logic, 20.755ns route)
+                                       (11.3% logic, 88.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1415119 / 94
+-------------------------------------------------------------------------
+Offset:              21.153ns (Levels of Logic = 31)
+  Source:            XLXI_4/a_31_928 (FF)
+  Destination:       Addr_out<29> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: XLXI_4/a_31_928 to Addr_out<29>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.282   0.616  XLXI_4/a_31_928 (XLXI_4/a_31_928)
+     LUT5:I2->O            1   0.053   0.635  XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_82 (XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_82)
+     LUT6:I2->O            2   0.053   0.491  XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_4 (XLXI_4/Mmux_RN2[4]_a[31][31]_wide_mux_4_OUT_4)
+     LUT6:I4->O            3   0.053   0.739  XLXI_12/Mmux_C110 (XLXN_36<0>)
+     XOR2:I1->O            3   0.067   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_1/XLXI_2 (XLXI_11/m1/m1/XLXI_1/XLXI_1/XLXN_3)
+     LUT6:I5->O            3   0.053   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_2/XLXI_1/out1 (XLXI_11/m1/m1/XLXI_1/XLXN_16)
+     LUT5:I4->O            2   0.053   0.745  XLXI_11/m1/m1/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m1/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m1/XLXI_4/XLXI_8 (XLXI_11/m1/m1/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m1/XLXI_4/XLXI_19 (XLXI_11/m1/C0)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m2/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m2/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m2/XLXI_4/XLXI_8 (XLXI_11/m1/m2/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m2/XLXI_4/XLXI_19 (XLXI_11/m1/C1)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m3/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m3/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m3/XLXI_4/XLXI_8 (XLXI_11/m1/m3/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m3/XLXI_4/XLXI_19 (XLXI_11/m1/C2)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m4/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m4/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m4/XLXI_4/XLXI_8 (XLXI_11/m1/m4/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m4/XLXI_4/XLXI_19 (XLXI_11/m1/C3)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m5/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m5/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m5/XLXI_4/XLXI_8 (XLXI_11/m1/m5/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m5/XLXI_4/XLXI_19 (XLXI_11/m1/C4)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m6/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m6/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m6/XLXI_4/XLXI_8 (XLXI_11/m1/m6/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m6/XLXI_4/XLXI_19 (XLXI_11/m1/C5)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m7/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m7/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m7/XLXI_4/XLXI_8 (XLXI_11/m1/m7/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m7/XLXI_4/XLXI_19 (XLXI_11/m1/C6)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m8/XLXI_1/XLXI_2/XLXI_1/Mxor_s_xo<0>1 (XLXI_11/m1/m8/XLXN_25<1>)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m8/XLXI_5/XLXI_25 (XLXI_11/m1/m8/XLXI_5/XLXN_29)
+     OR4:I2->O             3   0.157   0.616  XLXI_11/m1/m8/XLXI_5/XLXI_28 (XLXI_11/result1<29>)
+     LUT6:I3->O            1   0.053   0.399  XLXI_11/Mmux_C366 (Addr_out_29_OBUF)
+     OBUF:I->O                 0.000          Addr_out_29_OBUF (Addr_out<29>)
+    ----------------------------------------
+    Total                     21.153ns (2.718ns logic, 18.435ns route)
+                                       (12.8% logic, 87.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9927657 / 65
+-------------------------------------------------------------------------
+Delay:               22.581ns (Levels of Logic = 34)
+  Source:            inst_in<29> (PAD)
+  Destination:       Addr_out<29> (PAD)
+
+  Data Path: inst_in<29> to Addr_out<29>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   0.000   0.837  inst_in_29_IBUF (inst_in_29_IBUF)
+     LUT6:I1->O            1   0.053   0.413  XLXI_24/GND_21_o_GND_21_o_equal_1_o_SW0 (N0)
+     LUT6:I5->O            8   0.053   0.648  XLXI_24/GND_21_o_GND_21_o_equal_1_o (XLXI_24/GND_21_o_GND_21_o_equal_1_o)
+     LUT3:I0->O          277   0.053   0.931  XLXI_24/Mmux_C21 (XLXN_24<1>)
+     LUT5:I0->O            1   0.053   0.635  XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_82 (XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_82)
+     LUT6:I2->O            1   0.053   0.485  XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_4 (XLXI_4/Mmux_RN1[4]_a[31][31]_wide_mux_1_OUT_4)
+     LUT6:I4->O           15   0.053   0.577  XLXI_4/Mmux_A12 (XLXN_59<0>)
+     LUT6:I4->O            3   0.053   0.427  XLXI_11/m1/m1/XLXI_1/XLXI_2/XLXI_1/out1 (XLXI_11/m1/m1/XLXI_1/XLXN_16)
+     LUT5:I4->O            2   0.053   0.745  XLXI_11/m1/m1/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m1/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m1/XLXI_4/XLXI_8 (XLXI_11/m1/m1/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m1/XLXI_4/XLXI_19 (XLXI_11/m1/C0)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m2/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m2/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m2/XLXI_4/XLXI_8 (XLXI_11/m1/m2/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m2/XLXI_4/XLXI_19 (XLXI_11/m1/C1)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m3/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m3/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m3/XLXI_4/XLXI_8 (XLXI_11/m1/m3/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m3/XLXI_4/XLXI_19 (XLXI_11/m1/C2)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m4/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m4/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m4/XLXI_4/XLXI_8 (XLXI_11/m1/m4/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m4/XLXI_4/XLXI_19 (XLXI_11/m1/C3)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m5/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m5/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m5/XLXI_4/XLXI_8 (XLXI_11/m1/m5/XLXI_4/XLXN_17)
+     OR4:I2->O             4   0.157   0.433  XLXI_11/m1/m5/XLXI_4/XLXI_19 (XLXI_11/m1/C4)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m6/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m6/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m6/XLXI_4/XLXI_8 (XLXI_11/m1/m6/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m6/XLXI_4/XLXI_19 (XLXI_11/m1/C5)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m7/XLXI_1/XLXI_5/XLXI_1/out1 (XLXI_11/m1/m7/XLXN_20)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m7/XLXI_4/XLXI_8 (XLXI_11/m1/m7/XLXI_4/XLXN_17)
+     OR4:I2->O             5   0.157   0.440  XLXI_11/m1/m7/XLXI_4/XLXI_19 (XLXI_11/m1/C6)
+     LUT6:I5->O            2   0.053   0.745  XLXI_11/m1/m8/XLXI_1/XLXI_2/XLXI_1/Mxor_s_xo<0>1 (XLXI_11/m1/m8/XLXN_25<1>)
+     AND2:I0->O            1   0.053   0.635  XLXI_11/m1/m8/XLXI_5/XLXI_25 (XLXI_11/m1/m8/XLXI_5/XLXN_29)
+     OR4:I2->O             3   0.157   0.616  XLXI_11/m1/m8/XLXI_5/XLXI_28 (XLXI_11/result1<29>)
+     LUT6:I3->O            1   0.053   0.399  XLXI_11/Mmux_C366 (Addr_out_29_OBUF)
+     OBUF:I->O                 0.000          Addr_out_29_OBUF (Addr_out<29>)
+    ----------------------------------------
+    Total                     22.581ns (2.528ns logic, 20.053ns route)
+                                       (11.2% logic, 88.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   21.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.52 secs
+ 
+--> 
+
+Total memory usage is 4646924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   56 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+
